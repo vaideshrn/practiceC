@@ -6,7 +6,7 @@ void main() {
     if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
         printf ("%c is a vowel \n", letter);
     }
-    else {
-        printf (" %c is a constant \n", letter);
+    else{
+        printf ("%c is a constant \n", letter);
     }
 }
