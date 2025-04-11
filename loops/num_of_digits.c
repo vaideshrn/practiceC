@@ -8,5 +8,5 @@ void main(){
         n = n/10;
         count++;
     }
-    printf("%d", count);
+    printf("The number of digits are %d", count);
 }
