@@ -1,7 +1,6 @@
-cmake_minimum_required(VERSION 3.30)
-project(fn C)
+cmake_minimum_required(VERSION 3.10)
+project(MyCProject C)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 11)  # or 99, 17 based on your needs
 
-add_executable(fn main.c
-        "fn_add.c")
+add_executable(MyCProject main.c)
